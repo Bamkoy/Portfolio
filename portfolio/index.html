@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>VibeNest - Hub</title>
+    <style></style>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="nav-container">
+        <div class="logo">VIBENEST</div>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <h1>Abundance Barminas</h1>
+        <p>Full-Stack Web Developer</p>
+        <a href="#contact" class="cta-button">Get In Touch</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="animate-on-scroll fade-in-up">About Me</h2>
+        <div class="about-content">
+          <div class="about-text animate-on-scroll fade-in-left">
+            <p>
+              Hi! I'm a passionate web developer with a love for creating
+              beautiful, functional, and user-friendly websites. With expertise
+              in modern web technologies, I bring ideas to life through clean
+              code and innovative solutions.
+            </p>
+            <p>
+              I specialize in building responsive web applications that provide
+              seamless experiences across all devices. My goal is to help
+              businesses and individuals establish a strong online presence.
+            </p>
+            <p>
+              When I'm not coding, you can find me exploring new technologies,
+              contributing to open-source projects, or enjoying a good cup of
+              coffee.
+            </p>
+          </div>
+          <div class="about-image animate-on-scroll fade-in-right">
+            <img src="./images/IMG-20241009-WA0066.jpg" alt="Bamkoy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="container">
+        <h2 class="animate-on-scroll fade-in-up">Skills & Services</h2>
+        <div class="skills-grid">
+          <div
+            class="skill-card animate-on-scroll fade-in-up"
+            style="animation-delay: 0.1s"
+          >
+            <h3>Frontend Development</h3>
+            <p>
+              Building responsive and interactive user interfaces using HTML,
+              CSS, JavaScript, React, and modern frameworks.
+            </p>
+          </div>
+          <div
+            class="skill-card animate-on-scroll fade-in-up"
+            style="animation-delay: 0.2s"
+          >
+            <h3>Backend Development</h3>
+            <p>
+              Creating robust server-side applications with Node.js, Express,
+              and database management systems.
+            </p>
+          </div>
+          <div
+            class="skill-card animate-on-scroll fade-in-up"
+            style="animation-delay: 0.3s"
+          >
+            <h3>UI/UX Design</h3>
+            <p>
+              Designing intuitive and visually appealing interfaces that enhance
+              user experience and engagement.
+            </p>
+          </div>
+          <div
+            class="skill-card animate-on-scroll fade-in-up"
+            style="animation-delay: 0.4s"
+          >
+            <h3>Web Optimization</h3>
+            <p>
+              Improving website performance, SEO, and accessibility to ensure
+              fast loading times and better rankings.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <h2 class="animate-on-scroll fade-in-up">Featured Projects</h2>
+        <div class="projects-grid">
+          <div
+            class="project-card animate-on-scroll fade-in-up"
+            style="animation-delay: 0.1s" >
+            <div class="project-image">
+              <img src="./images/blog system.jpg" alt="E-Commerce Platform" />
+            </div>
+            <div class="project-content">
+              <h3>Complete Blog System</h3>
+              <p>
+                A full-featured online shopping platform with payment
+                integration and admin dashboard.
+              </p>
+              <a
+                href="http://localhost/PHPCMS/dashboard.php"
+                class="project-link"
+                target="_blank"
+                >View Project →</a
+              >
+            </div>
+          </div>
+          <div
+            class="project-card animate-on-scroll fade-in-up"
+            style="animation-delay: 0.2s"
+          >
+            <div class="project-image">
+              <img
+                src="./images/Screenshot 2025-10-16 204311.jpg"
+                alt="Task Management App"
+              />
+            </div>
+            <div class="project-content">
+              <h3>A Real Estate Site</h3>
+              <p>
+                A collaborative task management tool with real-time updates and
+                team features.
+              </p>
+              <a
+                href="http://localhost/realestate/"
+                class="project-link"
+                target="_blank"
+                >View Project →</a
+              >
+            </div>
+          </div>
+          <div
+            class="project-card animate-on-scroll fade-in-up"
+            style="animation-delay: 0.3s"
+          >
+            <div class="project-image">
+              <img src="./images/Catering Buffet Food Display.jpeg" alt="Portfolio Website" />
+            </div>
+            <div class="project-content">
+              <h3>Recipes For Dishes</h3>
+              <p>
+                A modern portfolio website showcasing creative work with smooth
+                animations.
+              </p>
+              <a href="http://127.0.0.1:5500/index.html" class="project-link">View Project →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="animate-on-scroll fade-in-up">Get In Touch</h2>
+        <div class="contact-content">
+          <p class="animate-on-scroll fade-in-up">
+            I'm always open to discussing new projects, creative ideas, or
+            opportunities to be part of your vision.
+          </p>
+
+          <form
+            class="contact-form animate-on-scroll fade-in-up"
+            action="https://docs.google.com/forms/d/e/1FAIpQLSfi_4s9WVrNqaPQqb7EHG0R9qAMbztHhhEs6GBiHmHdNVkwFA/viewform?usp=pp_url
+"
+            method="POST"
+            target="hidden_iframe"
+            onsubmit="submitToGoogle(event)"
+          >
+            <div class="form-group">
+              <label for="name">Name *</label>
+              <input type="text" id="name" name="entry.609640986" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="entry.1305921115" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject *</label>
+              <input type="text" id="subject" name="entry.434566995" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="entry.413238452" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Send Message</button>
+          </form>
+          <iframe name="hidden_iframe" style="display: none"></iframe>
+
+          <div class="social-divider animate-on-scroll fade-in-up">
+            or connect via
+          </div>
+
+          <div class="contact-links animate-on-scroll fade-in-up">
+            <a
+              href="mailto:barminasabundance@gmail.com"
+              class="contact-link"
+              target="_blank"
+              >Email</a
+            >
+            <a
+              href="https://github.com/Bamkoy"
+              class="contact-link"
+              target="_blank"
+              >GitHub</a
+            >
+            <a
+              href="https://www.linkedin.com/in/abundance-barminas-b43b00180?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              class="contact-link"
+              target="_blank"
+              >LinkedIn</a
+            >
+            <a
+              href="https://www.facebook.com/share/1CZL6BfSb4/"
+              class="contact-link"
+              target="_blank"
+              >Facebook</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 John Doe. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      function toggleTheme() {
+        const html = document.documentElement;
+        const currentTheme = html.getAttribute("data-theme");
+        const newTheme = currentTheme === "dark" ? "light" : "dark";
+        html.setAttribute("data-theme", newTheme);
+      }
+
+      function toggleMenu() {
+        const navLinks = document.getElementById("navLinks");
+        navLinks.classList.toggle("active");
+      }
+      function submitToGoogle(event) {
+        const form = event.target;
+        const name = document.getElementById("name").value;
+
+        setTimeout(() => {
+          alert(`Thank you, ${name}! Your message has been sent.`);
+          form.reset();
+        }, 500);
+      }
+
+      function handleSubmit(event) {
+        event.preventDefault();
+
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const subject = document.getElementById("subject").value;
+        const message = document.getElementById("message").value;
+
+        alert(
+          `Thank you, ${name}! Your message has been received. We'll get back to you at ${email} soon.`
+        );
+
+        event.target.reset();
+      }
+
+      // Scroll animation observer
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: "0px 0px -50px 0px",
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("animated");
+            observer.unobserve(entry.target);
+          }
+        });
+      }, observerOptions);
+
+      // Observe all elements with animate-on-scroll class
+      document.addEventListener("DOMContentLoaded", () => {
+        const animatedElements =
+          document.querySelectorAll(".animate-on-scroll");
+        animatedElements.forEach((el) => observer.observe(el));
+      });
+
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({ behavior: "smooth" });
+            document.getElementById("navLinks").classList.remove("active");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
